@@ -9,8 +9,9 @@ public class PortfolioDemo {
 
 	//TODO: Create employees and products with details, export to JSON 
 	// and compute their productivity (change as appropriate to your design)
-	Serializable serializableEmployee = new Temporary("Smith","John"); 
-	Serializable serializableProduct = new Product();
+	Serializable serializableEmployee = new Temporary("Smith","John", 20); 
+	Serializable serializableProduct = new Product("Laptop", "Hardware", 134.56, 7);
+
 
 
 	try {

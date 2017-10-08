@@ -7,7 +7,7 @@ public class PayrollDemo {
 	
 		//TODO - Create two different employees of each type , update their details 
 		// and print their names and salaries(change as appropriate to your design)
-		Employee employee1 = new Temporary("John","Smith"); 
+		Employee employee1 = new Temporary("John","Smith", 20); 
 		Employee employee2 = new Permanent("Richard","Feymann");
  
 
@@ -18,7 +18,7 @@ public class PayrollDemo {
 
 	public static void printSalary(Employee e) {
 		System.out.println("Salary of " + e.getName() + " is: "
-				+ e.getPay());
+				+ e.computeSalary());
 	}
 
 }
